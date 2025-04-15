@@ -23,5 +23,5 @@ get localhost:5000/api/v1.0/predict?a=5&b=4
         "features": {
             "a": 5.0,
             "b": 4.0,
-            "sum": 9.0}
+            "sum": 9.0}}
 
