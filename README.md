@@ -31,7 +31,7 @@ Model - regula decyzyjna
 
 Aby uzyskać prognozę wyślij żądanie GET do:
 
-http://127.0.0.1:5000/api/v1.0/predict?a=5&b=4
+http://localhost:5050/api/v1.0/predict?a=5&b=4
 
     Wynik:
         ("prediction": 1,
