@@ -4,32 +4,17 @@
 
 Model - regula decyzyjna
 
-## Spis treści
+## Użycie 
 
-- [Instalacja](#instalacja)
-- [Użycie](#użycie)
+1. Zbuduj obraz Dockera
 
-## Instalacja
+docker build -t zadanie1 .
 
-1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/alipod/Analiza-danych-w-czasie-rzeczywistym.git
+2. Uruchom kontener
 
-2. Przejdź do katalogu projektu:
+docker run -p 5000:5000 zadanie1
 
-  cd Analiza-danych-w-czasie-rzeczywistym
-
-3. Zainstaluj wymagane zależności:
-
-  pip install -r requirements.txt
-
-4. Uruchom aplikację:
-
-  python app.py
-
-## Użycie
-
-Aby uzyskać prognozę wyślij żądanie GET do:
+3. Aby uzyskać prognozę wyślij żądanie GET do:
 
 get localhost:5000/api/v1.0/predict?a=5&b=4
 
